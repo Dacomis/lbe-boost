@@ -44,7 +44,7 @@ export function LBEBoost() {
 
       <div>
         {assetName.length > 32 && (
-          <div className="text-red-500 flex relative items-center">
+          <div className="text-red-500 flex relative items-center w-10/12 mx-24">
             <BsExclamationCircle />
             <span className="text-sm ml-1">
               The asset name has over 32 characters
@@ -54,7 +54,7 @@ export function LBEBoost() {
       </div>
       <div>
         {assetName.length > 0 && assetName.length < 32 && (
-          <div className="text-red-500 flex relative items-center">
+          <div className="text-red-500 flex relative items-center w-10/12 mx-24">
             <BsExclamationCircle />
             <span className="text-sm ml-1">
               The asset name has under 32 characters
